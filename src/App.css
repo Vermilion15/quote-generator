@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: bisque;
+  font-family: Arial, sans-serif;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  height: 450px;
+  margin: 10rem auto;
+}
+
+
+.container h1 {
+  margin-bottom: 2rem;
+  margin-top: -2rem;
+}
+.quote-container {
+  background-color: #000080;
+  width: 500px ;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-container button {
+  margin-bottom:1rem ;
+  padding: 10px 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.quote-container h2 , .quote-container h4{
+  text-align: center;
+  margin-bottom: 10px;
+}
